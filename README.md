@@ -1,3 +1,3 @@
 # pixel art marker
-i love coding
-im interested in learning more programming languages
+i love coding <br>
+im interested in learning more programming languages <br>
