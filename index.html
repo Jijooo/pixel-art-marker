@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Lab: Pixel Art Maker</h1>
+            <marquee class='marquee'>DESIGNED BY JIJOO THE DUDE FOLLOW ON TWITTER &ensp; @JIJOO_THE_DUDE &ensp; IG @JIJO_THE_DUDE</marquee>
+        </div>
+
+        <div class="gridSize">
+            <h2>Choose Grid Size</h2>
+            <br>
+            <form id="sizePicker">
+                <strong>Grid Height:</strong>
+                <input type="number" id="inputHeight" name="height" min="1" value="1">
+                <br>
+
+                <strong>Grid Width:</strong>
+                <input type="number" id="inputWeight" name="width" min="1" value ="1">
+                <br>
+                <br>
+
+                <input type="submit" class='button'>
+            </form>
+            
+            
+
+            
+            <h3>Pick A Color</h3>
+            <input type="color" id="colorPicker">
+        </div>
+
+        <div class='design'>
+            <h3>Design Canvas</h3>
+            <table id="pixelCanvas"></table>
+        </div>
+
+    
+    </div>
+
+    <script src="designs.js"></script>
+</body>
+</html>
